@@ -1,0 +1,24 @@
+Model: SGDClassifier (loss=log_loss, alpha=1e-05, n_epochs=5)
+
+Accuracy            : 99.3457%
+AUC-ROC             : 0.999920
+Avg Precision       : 1.000000
+Detection Rate (TPR): 99.3438%
+False Positive Rate : 0.0000%
+False Negative Rate : 0.6562%
+Precision (ATTACK)  : 100.0000%
+
+Confusion Matrix:
+               Predicted
+              BENIGN    ATTACK
+  BENIGN       5,730           0
+  ATTACK      13,327   2,017,718
+
+              precision    recall  f1-score   support
+
+      BENIGN     0.3007    1.0000    0.4623      5730
+      ATTACK     1.0000    0.9934    0.9967   2031045
+
+    accuracy                         0.9935   2036775
+   macro avg     0.6503    0.9967    0.7295   2036775
+weighted avg     0.9980    0.9935    0.9952   2036775

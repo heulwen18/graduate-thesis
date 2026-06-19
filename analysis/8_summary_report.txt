@@ -1,0 +1,41 @@
+=================================================================
+  CIC-DDoS2019 – FEATURE ANALYSIS SUMMARY
+=================================================================
+
+  Total features analyzed : 77
+  SELECTED_FEATURES       : 31
+  REMOVED_FEATURES        : 46
+
+  SELECTED_FEATURES = [
+      "Packet Length Mean",
+      "Subflow Fwd Bytes",
+      "Flow Bytes/s",
+      "Fwd Packets/s",
+      "ACK Flag Count",
+      "Flow IAT Mean",
+      "Init_Win_bytes_forward",
+      "Flow Duration",
+      "Packet Length Std",
+      "Fwd Packet Length Std",
+      "Bwd Packet Length Min",
+      "Packet Length Variance",
+      "Bwd Packet Length Mean",
+      "Fwd Header Length",
+      "Bwd Packets/s",
+      "min_seg_size_forward",
+      "Down/Up Ratio",
+      "Init_Win_bytes_backward",
+      "Bwd Packet Length Max",
+      "Subflow Fwd Packets",
+      "Subflow Bwd Packets",
+      "Bwd IAT Total",
+      "Idle Max",
+      "Fwd IAT Min",
+      "Bwd IAT Max",
+      "Bwd Header Length",
+      "Bwd IAT Min",
+      "Subflow Bwd Bytes",
+      "Active Max",
+      "Active Mean",
+      "Active Min",
+  ]
